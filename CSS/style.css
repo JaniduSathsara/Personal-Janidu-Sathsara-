@@ -44,7 +44,7 @@ body {
 
 .role {
     margin: 0;
-    color: #b8baff;
+    color: #7300f7;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -72,7 +72,7 @@ body {
     overflow-x: auto;
     font-family: Consolas, "Courier New", monospace;
     font-size: 14px;
-    line-height: 1.75;
+    line-height: 1.5;
     margin: 0;
 }
 
@@ -117,7 +117,7 @@ body {
 
 .about-Card {
     padding: 30px 30px;
-    background: linear-gradient(145deg, rgba(217, 219, 223, 0.96), rgba(13, 20, 37, 0.98));
+    background: linear-gradient(145deg, rgba(217, 219, 223, 0.96), rgba(20, 22, 27, 0.98));
     border: 10px;
     border-radius: 24px;
     margin: auto;
@@ -145,7 +145,7 @@ body {
 }
 
 .icet {
-    color: #0f02bb;
+    color: #1504ff;
 }
 
 .certi {
@@ -153,18 +153,25 @@ body {
 }
 
 .icet-img {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    display: block;
 }
 
 .icet-text {
     font-size: 16px;
+    line-height: 1.8;
     margin: 0;
+    text-align:center;
 }
 
 .icet-logo {
     width: 45px;
     height: 45px;
     object-fit: contain;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.uL{
+    text-align: center;
+    line-height: 1.75;
 }
