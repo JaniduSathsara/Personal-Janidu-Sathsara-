@@ -1,3 +1,7 @@
+.body{
+    background: #ffffff;
+
+}
 body {
     margin: 0;
     min-height: 100vh;
@@ -201,146 +205,43 @@ body {
     line-height: 1.75;
 }
 
-/* USE AI for link GitHub  */
-.github-section {
-    max-width: 1100px;
-    margin: 60px auto;
-    padding: 40px 25px;
-    font-family: Arial, sans-serif;
-    color: #f0f6fc;
-    background-color: #6fa7fa;
-    border-radius: 16px;
-    overflow-wrap: anywhere;
-    transition: all 0.3s ease;
-}
-
-.github-section:hover {
-    transform: translateY(-6px);
-    border-color: #58a6ff;
-    box-shadow: 0 8px 25px rgba(88, 166, 255, 0.35);
-}
-
-/* Section Heading */
-.github-heading {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.github-heading h2 {
-    font-size: 36px;
-    margin-bottom: 12px;
-    color: #ffffff;
-}
-
-.github-heading p {
-    color: #8b949e;
-    font-size: 15px;
-    line-height: 1.7;
-}
-
-/* GitHub Profile Card */
-.github-profile {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    padding: 25px;
-    margin-bottom: 40px;
-    background-color: #161b22;
-    border: 1px solid #30363d;
-    border-radius: 14px;
-}
-
-/* Profile Image */
-.github-profile img {
-    width: 90px;
-    height: 90px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #58a6ff;
-}
-
-/* Profile Information */
-.profile-info {
-    flex: 1;
-}
-
-.profile-info h3 {
-    margin: 0 0 10px;
-    font-size: 23px;
-    color: #ffffff;
-}
-
-.profile-info p {
-    margin-bottom: 15px;
-    color: #8b949e;
-}
-
-/* Common Links */
-.github-section a {
-    color: #58a6ff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.github-section a:hover {
-    color: #79c0ff;
-    text-decoration: underline;
-}
-
-/* Repository Heading */
 .projects-title {
     font-size: 24px;
     margin-bottom: 22px;
     color: #ffffff;
 }
 
-/* Repository Grid */
-.repo-container {
+.project-container {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
 }
 
-/* Repository Card */
-.repo-card {
+
+.project-card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 24px;
     min-width: 0;
-    background-color: #161b22;
-    border: 1px solid #30363d;
+    background-color: #c2c2c200;
+    border: 1px solid #ffffff;
     border-radius: 12px;
     transition: transform 0.3s ease,
         border-color 0.3s ease,
         box-shadow 0.3s ease;
-}
-
-/* Card Hover Effect */
-.repo-card:hover {
-    transform: translateY(-6px);
-    border-color: #58a6ff;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
-}
-
-/* Repository Name */
-.repo-card h4 {
     margin: 0 0 15px;
     font-size: 19px;
     color: #58a6ff;
     overflow-wrap: anywhere;
 }
 
-/* Repository Description */
-.repo-card p {
-    margin: 0 0 20px;
-    color: #8b949e;
-    font-size: 14px;
-    line-height: 1.8;
-    flex-grow: 1;
+.project-card:hover {
+    transform: translateY(-6px);
+    border-color: #58a6ff;
+    box-shadow: 0 8px 25px rgba(88, 166, 255, 0.35);
 }
 
-/* Programming Language */
 .language {
     display: inline-block;
     padding: 6px 12px;
@@ -352,26 +253,79 @@ body {
     font-size: 12px;
 }
 
-/* Repository Link */
-.repo-card a {
-    display: inline-block;
-    padding: 10px 14px;
-    background-color: #21262d;
-    border: 1px solid #30363d;
-    border-radius: 7px;
-    font-size: 13px;
+.h2 {
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.skill {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.skill-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 16px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
 }
 
-.repo-card a:hover {
-    background-color: #30363d;
-    text-decoration: none;
+.progress-card {
+    padding: 48px 30px;
+    text-align: center;
+    background: linear-gradient(145deg, rgba(217, 219, 223, 0.96), rgba(13, 20, 37, 0.98));
+    border: 3px;
+    border-radius: 24px;
+    overflow-wrap: anywhere;
+    transition: all 0.3s ease;
 }
 
-/* Tablet Responsive */
-@media (max-width: 900px) {
-    .repo-container {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+.progress-card:hover {
+    transform: translateY(-6px);
+    border-color: #58a6ff;
+    box-shadow: 0 8px 25px rgba(88, 166, 255, 0.35);
+}
+
+.main-project-card {
+    padding: 48px 30px;
+    text-align: center;
+    background: linear-gradient(145deg, rgba(217, 219, 223, 0.96), rgba(13, 20, 37, 0.98));
+    border: 3px;
+    border-radius: 24px;
+    overflow-wrap: anywhere;
+    transition: all 0.3s ease;
+}
+
+.main-project-card:hover {
+    transform: translateY(-6px);
+    border-color: #58a6ff;
+    box-shadow: 0 8px 25px rgba(88, 166, 255, 0.35);
+}
+
+.progress {
+    width: 100%;
+    height: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.6s ease;
+}
+
+.bg-success {
+    background-color: #5b1987;
+}
+
+.bg-info {
+    background-color: #0dcaf0;
+}
+
+.bg-warning {
+    background-color: #ffc107;
 }
