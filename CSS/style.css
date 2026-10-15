@@ -115,3 +115,11 @@ body {
     border-radius: 50%;
     background: #4ade80;
 }
+
+.about-Card{
+    padding: 30px 30px;
+    background: linear-gradient(145deg, rgba(217, 219, 223, 0.96), rgba(13, 20, 37, 0.98));
+    border: 10px;
+    border-radius: 24px;
+    margin: auto;
+}
