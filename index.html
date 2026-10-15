@@ -7,71 +7,57 @@
     <title>My Portfolio</title>
 
     <link rel="stylesheet" href="CSS/style.css">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
 </head>
 
-<body bgcolor="white">
-    <nav class="navbar md:navbar-expand bg-1 mt-10">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer"
-                aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" aria-hidden="true"></span>
-            </button>
-            <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
-                <div class="drawer-header">
-                    <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
-                </div>
-                <div class="drawer-body mb-2 md:mb-0">
-                    <ul class="nav navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                    </ul>
-                </div>
-            </dialog>
-        </div>
-    </nav>
-    <div class="row row-cols-1 md:row-cols-3 g-5 justify-content-between justify-content-around mt-10">
-        <div class="col">
-            <div class="card">
-                <img class="img-size img-thumbnail border rounded" src="Images/janidu.jpg" class="card-img-top"
-                    alt="my image">
-                <div class="card-body">
-                    <h4 class="card-title">Janidu Sathsara</h4>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional
-                        content. This content is a little bit longer.</p>
-                </div>
+<body>
+
+    <div class="cards ">
+        <div class="profile-card">
+            <img class="img" src="Images/janidu.jpg" alt="Janidu Sathsara">
+            <div class="profile-body">
+                <h1>Janidu Sathsara</h1>
+                <p class="role">| &nbsp; Student Developer &nbsp; |</p>
+                <p></p>
+                <p class="description">
+                    I'm a Student Developer passionate about software development,
+                    web technologies, and artificial intelligence.
+                </p>
+                <p></p>
+                <div>BUILD • LEARN • CREATE</div>
             </div>
         </div>
-        
-        <div  class="col">
-            <div class="card carousel-fade">
-                <p class="card-header align-middle">janidu.js</p>
-                <div class="card-body">
-                    <p>
-                    <p class="const">const <span class="developer"> developer = { </span> </p>
-                    <p>&nbsp;&nbsp; name : <span class="name2">"Janidu Sathsara",</span></p>
-                    <p>&nbsp;&nbsp; role : <span class="name2">"Student Developer",</span></p>
-                    <p>&nbsp;&nbsp; learning : <span class="name2">"Java",</span></p>
-                    <p>&nbsp;&nbsp; passion :<span class="name2"> "Coding",</span></p>
-                    };</p>
-                    <p>
-                    <p class="developer">console<span class="developer2">.log( </span></p>
-                    <p class="name2">&nbsp;&nbsp;"let's build somethings!"</p>
-                    );</p>
-                    <p class="card-footer">Allways learning.Always building.</p>
-                </div>
+
+        <div class="profile-card2">
+            <header class="code-header">
+                <p>janidu.js</p>
+            </header>
+
+            <div class="code-body">
+                <p><span class="const">const</span> <span class="developer">developer</span> = {</p>
+                <p><span class="names">&nbsp;&nbsp;name</span>: <span class="string">"Janidu Sathsara"</span>,
+                </p>
+                <p><span class="names">&nbsp;&nbsp;role</span>: <span class="string">"Student
+                        Developer"</span>,
+                </p>
+                <p><span class="names">&nbsp;&nbsp;learning</span>: <span class="string">"Java"</span>,</p>
+                <p><span class="names">&nbsp;&nbsp;passion</span>: <span class="string">"Coding"</span></p>
+                <p>};</p>
+                <br>
+                <p><span class="developer">console</span><span class="commas">.log(</span></p>
+                <p><span class="string">"Let's build something!"</span></p>
+                <p><span class="commas">);</span></p>
             </div>
+
+            <footer class="code-footer">
+                <span class="status-dot"></span>
+                Always learning. Always building.
+            </footer>
+
+        </div>
+
         </div>
     </div>
+
 
 </body>
 
