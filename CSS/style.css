@@ -1,16 +1,11 @@
 
-.text{
-    color: black;
-}
-
-.body {
+body {
     margin: 0;
     min-height: 100vh;
     display: grid;
     place-items: center;
     padding: 40px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #ffffff;
 }
 
 .cards {
@@ -18,7 +13,10 @@
     display: grid;
     grid-template-columns: 0.9fr 1.1fr;
     align-items: stretch;
-    gap: 28px;
+    gap: 100px;
+    justify-content: space-evenly;
+    padding: 40px 40px;
+    box-sizing: border-box;
 }
 
 
@@ -139,7 +137,7 @@
 }
 
 .about-Card {
-    padding: 30px 30px;
+    padding: 50px 50px;
     background: linear-gradient(145deg, rgba(217, 219, 223, 0.96), rgba(20, 22, 27, 0.98));
     border: 10px;
     border-radius: 24px;
