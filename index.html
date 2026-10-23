@@ -11,25 +11,20 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar navbar-expand bg-1">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="Images/janidu.jpg" alt="Logo" width="40" height="40">
-            </a>
-            <div class="nav nav-pills navbar-nav flex-row ms-auto">
-                <a class="nav-link active" href="#">About</a>
-                <a class="nav-link" href="#">Skills</a>
-                <a class="nav-link" href="#">Projects</a>
-                <a class="nav-link" href="#">Journey</a>
-                <a class="nav-link" href="#">Contact</a>
-            </div>
-        </div>
-    </nav> -->
+    <nav class="navbar">
+        <a href="#home" class="nav-logo">Janidu<span>.</span></a>
 
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <hr>
 
-    <div class="cards align-content-between ">
+    <section id="home" class="cards align-content-between ">
         <div class="profile-card">
             <img class="img" src="Images/janidu.jpg" alt="Janidu Sathsara">
             <div class="profile-body">
@@ -41,7 +36,8 @@
                     web technologies, and artificial intelligence.
                 </p>
                 <p></p>
-                <div><span class="Sri">BUILD</span> <span class="S1">•</span> <span class="lan">LEARN</span> <span class="S1">•</span> <span class="ka">CREATE</span></div>
+                <div><span class="Sri">BUILD</span> <span class="S1">•</span> <span class="lan">LEARN</span> <span
+                        class="S1">•</span> <span class="ka">CREATE</span></div>
             </div>
         </div>
 
@@ -73,37 +69,37 @@
 
         </div>
 
-    </div>
+    </section>
     <hr>
-    <hr>
+    <section id="about">
+        <div class="about-Card">
 
-    <div class="about-Card">
-
-        <div class="icet-img">
-            <p class="icet-text">
-                <b>
-                    I'm studying at the Institute of Computer Engineering
-                    Technology (
-                    <img class="icet-logo" src="Images/icet.png" alt="iCET Logo">
-                    ) for the iCET Certified Developer award.
-                </b>
+            <div class="icet-img">
+                <p class="icet-text">
+                    <b>
+                        I'm studying at the Institute of Computer Engineering
+                        Technology (
+                        <img class="icet-logo" src="Images/icet.png" alt="iCET Logo">
+                        ) for the iCET Certified Developer award.
+                    </b>
                 <p class="icet-text">I like turning a rough idea into a page that people
                     can read, use and enjoy.</p>
-            </p>
-            <p class="uL">
-                Clean code and accessible design matter to me more than
-                flashy effects, though I'll happily add a few of those too.
-            </p>
-            <hr>
+                </p>
+                <p class="uL">
+                    Clean code and accessible design matter to me more than
+                    flashy effects, though I'll happily add a few of those too.
+                </p>
+                <hr>
+            </div>
+            <ul class="uL">
+                <li class="C1"><span class="S1">Country : </span><span class="Sri">Sri</span> <span
+                        class="lan">lan</span><span class="ka">ka</span></li>
+                <li class="C1"><span class="S1">Studying : </span><span class="icet">iCET</span> <span
+                        class="certi">Certified </span> <span class="icet">Developer</span></li>
+                <li class="C1"><span class="S1">Focus : </span><span>Full-Stack development</span></li>
+            </ul>
         </div>
-        <ul class="uL">
-            <li class="C1"><span class="S1">Country : </span><span class="Sri">Sri</span> <span
-                    class="lan">lan</span><span class="ka">ka</span></li>
-            <li class="C1"><span class="S1">Studying : </span><span class="icet">iCET</span> <span
-                    class="certi">Certified </span> <span class="icet">Developer</span></li>
-            <li class="C1"><span class="S1">Focus : </span><span>Full-Stack development</span></li>
-        </ul>
-    </div>
+    </section>
 
     <hr>
     <hr>
@@ -143,56 +139,50 @@
 
     <hr>
     <hr>
+    <section id="projects">
+        <div class="main-project-card">
+            <h2 class="h2">My Projects</h2>
+            <p class="S1">
+                Explore my projects, source code and programming journey.
+            </p>
+            <div class="project-container">
 
-    <div class="main-project-card">
-        <h2 class="h2">My Projects</h2>
-        <p class="S1">
-            Explore my projects, source code and programming journey.
-        </p>
-        <div class="project-container">
+                <div class="project-card">
+                    <h4>Programming Projects</h4>
+                    <span class="language">Java / HTML / CSS</span>
+                    <a class="icon-link icon-link-hover" href="https://github.com/JaniduSathsara" target="_self">
+                        View Projects ↗
+                    </a>
+                </div>
 
-            <div class="project-card">
-                <h4>Programming Projects</h4>
-                <span class="language">Java / HTML / CSS</span>
-                <a class="icon-link icon-link-hover" href="https://github.com/JaniduSathsara" target="_self">
-                    View Projects ↗
-                </a>
-            </div>
-
-            <div class="project-card">
-                <h4>CSR Projects</h4>
-                <span class="language">Team-Work</span>
-                <a href="..." target="_self">
-                    View Project↗
-                </a>
+                <div class="project-card">
+                    <h4>CSR Projects</h4>
+                    <span class="language">Team-Work</span>
+                    <a href="..." target="_self">
+                        View Project↗
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
 
-
+    </section>
     <hr>
-    <hr>
+    <section id="contact">
 
-    <div class="contact-card">
-      <h2 class= "contact-title">Contact</h2>
-      <form class="contact">
-        <label class="name">Name</label>
-        <input class="name" type="text" autocomplete="name" required>
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" autocomplete="email" required>
-        <label form="msg">Message</label>
-        <textarea id="msg" name="msg" rows="5" required></textarea>
-        <button class="btn" type="submit">Send message</button>
-      </form>
-    </div>
+        <div class="contact-card">
+            <h2 class="contact-title">Contact</h2>
+            <form class="contact">
+                <label class="name">Name</label>
+                <input class="name" type="text" autocomplete="name" required>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+                <label form="msg">Message</label>
+                <textarea id="msg" name="msg" rows="5" required></textarea>
+                <button class="btn" type="submit">Send message</button>
+            </form>
+        </div>
 
-
-
-
-
-
-
-
+    </section>
 
     <div class="card-footer">
         <footer>
